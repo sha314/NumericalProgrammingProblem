@@ -1,0 +1,20 @@
+Happy Primes
+A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number either equals 1 (where it will stay), or it loops endlessly in a cycle that does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers).
+
+More formally, given a number n=n0, define a sequence n1, n2, ... where ni+1 is the sum of the squares of the digits of ni. Then n is happy if and only if there exists i such that ni=1.
+
+If a number is happy, then all members of its sequence are happy; if a number is unhappy, all members of the sequence are unhappy.
+
+For example, 19 is happy, as the associated sequence is:
+
+1^2 + 9^2 = 82
+8^2 + 2^2 = 68
+6^2 + 8^2 = 100
+1^2 + 0^2 + 0^2 = 1.
+First 20: 7, 13, 19, 23, 31, 79, 97, 103, 109, 139, 167, 193, 239, 263, 293, 313, 331, 367, 379, 383
+
+Checkout list of first: 10, 50, 100, 500, 1000 happy primes. You can also check all happy primes.
+
+Checkout happy primes up to: 100, 500, 1000, 10000.
+
+
